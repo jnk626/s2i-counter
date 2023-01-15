@@ -22,8 +22,8 @@ const createElem = function (tag, classes, content) {
 const container = createElem("main", "container");
 document.body.append(container);
 
-const title = createElem("h1", "my-title", "A tiny counter");
-container.before(title);
+const title = createElem("h1", "my-title", "A tiny<br>counter");
+container.append(title);
 
 const counter = createElem("input", "counter", 0);
 container.append(counter);
