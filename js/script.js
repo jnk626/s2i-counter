@@ -37,9 +37,16 @@ container.append(minusBtn);
 const author = createElem(
   "p",
   "footer",
-  'Crafted by <a href="github.com/jnk626"><br>Gabriele Rigano</a>'
+  'Crafted by<br> <a href="github.com/jnk626">Gabriele Rigano</a>'
 );
 container.after(author);
+
+const credits = createElem(
+  "p",
+  "credits",
+  'Photo by <a href="https://unsplash.com/@8moments?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Simon Berger</a> on <a href="https://unsplash.com/photos/hxMdsEaiSyE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
+);
+author.after(credits);
 
 plusBtn.onclick = () => (counter.value = ++counter.value);
 minusBtn.onclick = () => (counter.value = --counter.value);
