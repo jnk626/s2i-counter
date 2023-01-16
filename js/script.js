@@ -34,5 +34,12 @@ container.append(plusBtn);
 const minusBtn = createElem("button", "minus", "-");
 container.append(minusBtn);
 
+const author = createElem(
+  "p",
+  "footer",
+  'Crafted by <a href="github.com/jnk626"><br>Gabriele Rigano</a>'
+);
+container.after(author);
+
 plusBtn.onclick = () => (counter.value = ++counter.value);
 minusBtn.onclick = () => (counter.value = --counter.value);
