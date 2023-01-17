@@ -11,7 +11,6 @@
 
 </p>
 
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -20,9 +19,9 @@
 
 ## Introduction
 
-View repository and user information, control your notifications and even manage your issues and pull requests. Built with React Native, GitPoint is one of the most feature-rich unofficial GitHub clients that is 100% free.
+Count as many times as you wish, while looking to a wonderful winter landscape. Built with vanilla JavaScript as a project for [Start2impact University] (https://www.start2impact.it/).
 
-**Available for both iOS and Android.**
+**Responsive design included.**
 
 <p align="center">
   <img src = "https://i.imgur.com/1lb8NHW.png" width=350>
@@ -32,10 +31,9 @@ View repository and user information, control your notifications and even manage
 
 What you can do with Counter?
 
-* Count things
+- Count things;
+- Subtract things.
 
 ## Feedback
 
-Feel free to send us feedback on [Twitter](https://twitter.com/gitpointapp) or [file an issue](https://github.com/gitpoint/git-point/issues/new). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [guidelines](./CONTRIBUTING.md)!
-
-If there's anything you'd like to chat about, please feel free to join our [Gitter chat](https://gitter.im/git-point)!
+Feel free to send me any feedback by [filing an issue](https://github.com/jnk626/s2i-counter/issues/new). Feature requests are always welcome.

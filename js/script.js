@@ -36,7 +36,7 @@ container.append(minusBtn);
 
 const author = createElem(
   "p",
-  "footer",
+  "signature",
   'Crafted by<br> <a href="github.com/jnk626">Gabriele Rigano</a>'
 );
 container.after(author);
@@ -48,5 +48,10 @@ const credits = createElem(
 );
 author.after(credits);
 
-plusBtn.onclick = () => (counter.value = ++counter.value);
-minusBtn.onclick = () => (counter.value = --counter.value);
+plusBtn.onclick = function () {
+  counter.value = ++counter.value;
+};
+
+minusBtn.onclick = function () {
+  counter.value = --counter.value;
+};
