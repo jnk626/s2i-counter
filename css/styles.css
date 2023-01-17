@@ -28,6 +28,9 @@ body {
   min-height: 100vh;
   overflow: hidden;
 
+  background-color: #141a24;
+
+  background-color: var(--neutral);
   background-image: url(/img/counter-background.jpg);
   background-position: center;
   background-size: cover;

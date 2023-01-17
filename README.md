@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="" target="_blank">
+  <a href="https://s2i-counter.vercel.app/" target="_blank">
     Try it!
   </a>
 
@@ -19,7 +19,7 @@
 
 ## Introduction
 
-Count as many times as you wish, while looking to a wonderful winter landscape. Built with vanilla JavaScript as a project for [Start2impact University] (https://www.start2impact.it/).
+Count as many times as you wish, while looking to a wonderful winter landscape. Built with vanilla JavaScript as a project for <a href="https://www.start2impact.it/" target="_blank">Start2impact University</a>.
 
 **Responsive design included.**
 
